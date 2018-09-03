@@ -1,0 +1,179 @@
+/*!
+-> init.css   initializer
+-> version: 0.1
+-> autor: GACS  
+-> github.com/gacsnic/init
+-> MIT License
+*/
+
+/*initialize */
+html {
+    background:#fff;
+    border:0;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    color:#000;
+    font-family:  Verdana,Arial,sans-serif,serif;
+    font-size: 15px;
+    line-height: 1.10;
+    text-shadow: #555 0 0 0;
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+     text-size-adjust: 100%; 
+}
+
+html, body,article, aside,a, abbr, acronym, address,audio,
+applet,big, cite,div, span,  
+object, iframe, 
+del, dfn, em, img, ins, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,dt, dd, ul,ol
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav,section, summary,
+time, mark,  video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    outline:0;
+    vertical-align: baseline;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+article,
+aside,details,
+footer,figcaption,figure,
+header,main,nav,section{
+  display: block;
+}
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+img,ins {
+    border: none;
+    text-decoration: none;
+}
+address,blockquote,code,dl,h1, h2, h3,
+ h4, h5, h6, p, pre,q,ul, ol {
+     font-weight: normal;
+     margin: 0 0 0.3em 0;
+}
+b,
+strong {
+  font-weight: 700;
+}
+blockquote{
+    font-family:  Helvetica,Arial,sans-serif,"Lucida Grande"  ;
+}
+blockquote:before,q:before { 
+    content: open-quote; 
+}
+blockquote:after,q:after  
+{ 
+    content: close-quote;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif; 
+  font-size: 1rem
+}
+cite, dfn {
+    font-style: italic;
+}
+dfn{
+    cursor:help;
+}
+em{
+    font-family:  Helvetica,cursive,serif,sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+}
+li, dd, blockquote,q {
+    margin-left:1em;
+}
+code,kbd,pre,tt, samp, var{
+    font-size: 1rem;
+    font-family: monospace, mono-space, courier, "Lucida Console";
+}
+kbd{
+    border-radius: 4px;
+    margin: 0 0.1em;
+    padding: 0.1em 0.5em;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.3), 0 0 0 2px #fff inset;
+}
+fieldset {
+    border: none;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.3rem;
+}
+h5 {
+    font-size: 1rem;
+}
+h6,sup,sub {
+    font-size: 0.7rem;
+}
+hr {
+   -moz-box-sizing: content-box ; 
+   -webkit-box-sizing: content-box; 
+   box-sizing: content-box ;
+   height: 0px; 
+   unicode-bidi: normal;
+   margin:  1px 0;
+   border-top:1px solid #747171;
+   overflow: visible; 
+}
+
+
+sup,sub {
+    line-height: 0;
+    position: relative;
+    bottom: 0.2em;
+    vertical-align: super;
+}
+sub {
+    bottom: -0.2em;
+    vertical-align: sub;
+}
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+ol,ul,nav,menu {
+    list-style: none;
+    list-style-type: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+progress {
+  display: inline-block; 
+  vertical-align: baseline; 
+}
+
